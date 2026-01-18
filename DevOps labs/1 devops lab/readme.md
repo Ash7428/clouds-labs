@@ -25,4 +25,10 @@ sites availeble
 
 
 <img width="776" height="127" alt="image" src="https://github.com/user-attachments/assets/41097c5f-ca55-4af6-a02d-fa4fd3c61531" />
+господи лишь бы не фейк
+<img width="957" height="675" alt="image" src="https://github.com/user-attachments/assets/9d2f6263-157a-41ed-8e69-83212baf46c6" />
+<img width="948" height="750" alt="image" src="https://github.com/user-attachments/assets/87bb3dd5-69b0-47b4-b9b6-9a9542ca4807" />
+
+
+<img width="1916" height="918" alt="image" src="https://github.com/user-attachments/assets/0723e512-4740-4aec-b1c5-fded799cb2d5" />
 
