@@ -38,14 +38,16 @@ sites availeble
 саздала самоподписные сертификаты
 <img width="1920" height="436" alt="image" src="https://github.com/user-attachments/assets/e9c54645-7ecf-4a5d-94b6-f46d32ed083e" />
 
-
+## Запуск сайтов 
+перезапускаю систему
 <img width="776" height="127" alt="image" src="https://github.com/user-attachments/assets/41097c5f-ca55-4af6-a02d-fa4fd3c61531" />
-господи лишь бы не фейк
+господи лишь бы не фейк. октрывается урааа
 <img width="957" height="675" alt="image" src="https://github.com/user-attachments/assets/9d2f6263-157a-41ed-8e69-83212baf46c6" />
 <img width="948" height="750" alt="image" src="https://github.com/user-attachments/assets/87bb3dd5-69b0-47b4-b9b6-9a9542ca4807" />
 
-
+## alias
+после первоначальной настройки сайта добавим к нему папку media чтобы картинка была смешная. В начале если перейти по адресу смешной картинки не было.. и никакой не было. ЧТо естественно, потому что в корневой папке указана иная дериктория (/var/www/project1.local/html/), и поиск папки media происходит внутри нее, хотя на самом деле она хранится в другом месте. Используем alias, чтобы создать псевдоним к папке media и получить доступ к мему:
 <img width="1916" height="918" alt="image" src="https://github.com/user-attachments/assets/0723e512-4740-4aec-b1c5-fded799cb2d5" />
 
-
+# Вывод
 так как я работала в wsl, а запускала сайты в браузере винды, то мне пришлось также прописывать домены в виндоуском файле. а могла бы с виртуал бокс делать и не мучится с локальными зависимостями....
