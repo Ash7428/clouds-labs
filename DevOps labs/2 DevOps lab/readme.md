@@ -1,3 +1,21 @@
+# Лабораторная №2
+## Задание
+* Написать “плохой” Dockerfile, в котором есть не менее трех “bad practices” по написанию докерфайлов.
+* Написать “хороший” Dockerfile, в котором эти плохие практики исправлены.
+
+1. Первым шагом я установила докер с помощью команд:
+```
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+echo
+"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu
+$(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+sudo apt install docker-ce
+```
 установка докера
 <img width="958" height="986" alt="image" src="https://github.com/user-attachments/assets/f1b7a1ad-f496-427a-a9a9-7812e5617dcc" />
 
