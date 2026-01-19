@@ -1,0 +1,34 @@
+name: Bad practices in CI/CD
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
+      - name: Build application
+        run: npm run build
+        
+  deploy:
+    runs-on: ubuntu-22.04
+    environment: production 
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Ensure deploy script is executable
+        run: chmod +x ./deploy.sh
+      - name: Deploy application
+        env:  
+          DEPLOY_PATH: /usr/share/nginx/html
+        run: |
+          echo "Deploying to $DEPLOY_PATH"
+          ./deploy.sh
