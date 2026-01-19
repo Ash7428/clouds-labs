@@ -1,11 +1,22 @@
-nginx installation on ubuntu wsl 
+Лабораторная №1
+Задание
+Настроить nginx по заданному тз:
+
+Должен работать по https c сертификатом
+Настроить принудительное перенаправление HTTP-запросов (порт 80) на HTTPS (порт 443) для обеспечения безопасного соединения.
+Использовать alias для создания псевдонимов путей к файлам или каталогам на сервере.
+Настроить виртуальные хосты для обслуживания нескольких доменных имен на одном сервере.
+
+## nginx installation on ubuntu wsl 
 <img width="967" height="846" alt="image" src="https://github.com/user-attachments/assets/7f53626c-70a0-4b73-a0fd-b94ec9c8de70" />
 active and running
 <img width="963" height="873" alt="image" src="https://github.com/user-attachments/assets/cfaaf3c1-a0c4-4308-8cd6-69d42f3dee31" />
 
-not a fake not a fake
+not a fake not a fake, есть свой веб сервер ураа
 <img width="789" height="524" alt="image" src="https://github.com/user-attachments/assets/c9f863cf-9831-4334-9cfc-58c1ea7ef6fc" />
 
+## создание сайтов
+Создаю локальные сайты
 ashra@LAPTOP-CONT63IE:~$ sudo mkdir -p /var/www/project1.local/html                          ashra@LAPTOP-CONT63IE:~$ sudo mkdir -p /var/www/project2.local/html
 
 <img width="950" height="162" alt="image" src="https://github.com/user-attachments/assets/1622cebd-09c5-4a30-b013-76626d83d794" />
